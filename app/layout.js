@@ -28,7 +28,7 @@ export const metadata = {
       "Transformamos tus ideas en soluciones digitales escalables que impulsan tu negocio.",
     url: "https://dualcodesolutions.com",
     siteName: "Dual Code Solutions",
-    images: [{ url: "/logo.png", width: 800, height: 600 }],
+    images: [{ url: "/logo-dual-code.png", width: 800, height: 600 }],
     locale: "es_MX",
     type: "website",
   },
@@ -37,7 +37,7 @@ export const metadata = {
     title: "Dual Code Solutions",
     description:
       "Desarrollo web, apps móviles, APIs y más desde Mérida, Yucatán.",
-    images: ["/logo.png"],
+    images: ["/logo-dual-code.png"],
   },
 };
 

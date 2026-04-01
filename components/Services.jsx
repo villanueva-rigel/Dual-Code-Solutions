@@ -50,7 +50,7 @@ const services = [
       </svg>
     ),
     title: "Despliegue en la Nube",
-    description: "Publicación y escalado de proyectos en AWS, Google Cloud o DigitalOcean.",
+    description: "Vercel/Netlify para lanzamientos rápidos y modernos. Google Cloud/AWS para escalar proyectos con potencia extrema.",
     gradient: "from-sky-500/10 to-indigo-500/10",
   },
   {
@@ -62,6 +62,26 @@ const services = [
     title: "Consultoría TI",
     description: "Asesoría tecnológica personalizada para startups y PYMEs que buscan crecer.",
     gradient: "from-emerald-500/10 to-teal-500/10",
+  },
+  {
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+      </svg>
+    ),
+    title: "Indexación y SEO",
+    description: "Conectamos tu web con Google Search Console. Aseguramos tu visibilidad en listas top para que nunca estés escondido.",
+    gradient: "from-yellow-400/10 to-orange-500/10",
+  },
+  {
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+      </svg>
+    ),
+    title: "Gestión de Dominios",
+    description: "Ayudamos a elegir y comprar tu dirección. Tú te olvidas de lo técnico, nosotros lo enlazamos y configuramos todo.",
+    gradient: "from-blue-600/10 to-cyan-400/10",
   },
 ];
 
@@ -88,7 +108,7 @@ export default function Services() {
         </AnimatedSection>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 xl:gap-8">
           {services.map((service, index) => (
             <AnimatedSection key={index} delay={index * 100}>
               <div className={`group bg-gradient-to-br ${service.gradient} rounded-2xl p-8 lg:p-9 hover:shadow-[0_15px_50px_rgba(13,27,62,0.12)] transition-all duration-400 border border-gray-100 hover:border-green-brand/30 h-full relative overflow-hidden`}>
