@@ -30,7 +30,7 @@ const services = [
       </svg>
     ),
     title: "APIs & Backend",
-    description: "Arquitectura de servidores robusta con Node.js, Python, bases de datos SQL/NoSQL.",
+    description: "Arquitectura robusta de servidores con Node.js (Express), Python (FastAPI), .NET y bases de datos SQL/NoSQL.",
     gradient: "from-orange-500/10 to-amber-500/10",
   },
   {
@@ -60,7 +60,7 @@ const services = [
       </svg>
     ),
     title: "Consultoría TI",
-    description: "Asesoría tecnológica personalizada para startups y PYMEs que buscan crecer.",
+    description: "Asesoría tecnológica personalizada para negocios nuevos y pequeñas o medianas empresas que buscan crecer.",
     gradient: "from-emerald-500/10 to-teal-500/10",
   },
   {
@@ -69,7 +69,7 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
       </svg>
     ),
-    title: "Indexación y SEO",
+    title: "Indexación",
     description: "Conectamos tu web con Google Search Console. Aseguramos tu visibilidad en listas top para que nunca estés escondido.",
     gradient: "from-yellow-400/10 to-orange-500/10",
   },
