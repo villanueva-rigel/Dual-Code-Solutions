@@ -30,7 +30,7 @@ const services = [
       </svg>
     ),
     title: "APIs & Backend",
-    description: "Arquitectura robusta de servidores con Node.js (Express), Python (FastAPI), .NET y bases de datos SQL/NoSQL.",
+    description: "Arquitectura robusta de servidores con Node.js, Express, Python, FastAPI, C# .NET y bases de datos SQL/NoSQL.",
     gradient: "from-orange-500/10 to-amber-500/10",
   },
   {
@@ -60,7 +60,7 @@ const services = [
       </svg>
     ),
     title: "Consultoría TI",
-    description: "Asesoría tecnológica personalizada para negocios nuevos y pequeñas o medianas empresas que buscan crecer.",
+    description: "Asesoría tecnológica para negocios de cualquier tamaño que buscan crear, innovar o digitalizar su operación al siguiente nivel.",
     gradient: "from-emerald-500/10 to-teal-500/10",
   },
   {
