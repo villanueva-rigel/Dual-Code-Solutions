@@ -16,7 +16,7 @@ export default function Hero() {
       id="inicio"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       style={{
-        background: "linear-gradient(135deg, #0D1B3E 0%, #1B3A7A 50%, #0D1B3E 100%)",
+        background: "radial-gradient(circle at center 35%, #1B3A7A 0%, #0D1B3E 70%)",
       }}
     >
       {/* Circuit Pattern Overlay */}
@@ -31,19 +31,15 @@ export default function Hero() {
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto pt-[90px] pb-24 sm:pb-32">
         {/* Logo with glow background */}
         <div className="mb-10 animate-fade-in-up">
-          <div className="relative inline-block">
-            {/* Glow behind logo */}
-            <div className="relative bg-white/10 backdrop-blur-md rounded-[2rem] p-6 sm:p-8 border border-white/5 border-b-2 border-b-green-brand shadow-[0_20px_60px_rgba(0,0,0,0.4)]">
-              <Image
-                src="/logo.png"
-                alt="Dual Code Solutions Logo"
-                width={280}
-                height={280}
-                className="mx-auto h-[140px] sm:h-[180px] lg:h-[220px] w-auto object-contain drop-shadow-[0_0_25px_rgba(255,255,255,0.3)]"
-                priority
-                style={{ filter: "drop-shadow(0px 0px 4px rgba(255,255,255,0.4)) brightness(1.2) contrast(1.1)" }}
-              />
-            </div>
+          <div className="relative inline-block group">
+            <Image
+              src="/Logo-principal.png"
+              alt="Dual Code Solutions Logo Principal"
+              width={320}
+              height={320}
+              className="mx-auto h-[160px] sm:h-[200px] lg:h-[240px] w-auto object-contain transition-transform duration-500 group-hover:scale-105"
+              priority
+            />
           </div>
         </div>
 

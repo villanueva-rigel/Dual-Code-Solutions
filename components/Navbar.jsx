@@ -50,16 +50,13 @@ export default function Navbar() {
           onClick={(e) => handleNavClick(e, "#inicio")}
           className="flex items-center gap-3 shrink-0 group"
         >
-          <div className="bg-white/10 backdrop-blur-md rounded-xl p-1.5 shadow-md border border-white/5 border-b-2 border-b-green-brand flex items-center justify-center">
-            <Image
-              src="/logo.png"
-              alt="Dual Code Solutions"
-              width={48}
-              height={48}
-              className="h-8 w-auto object-contain"
-              style={{ filter: "drop-shadow(0px 0px 4px rgba(255,255,255,0.4)) brightness(1.2) contrast(1.1)" }}
-            />
-          </div>
+          <Image
+            src="/Logo-sin-texto.png"
+            alt="Dual Code Solutions"
+            width={48}
+            height={48}
+            className="h-10 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.1)]"
+          />
           <span className="font-montserrat font-bold text-white text-lg hidden sm:block drop-shadow-sm">
             Dual Code Solutions
           </span>
