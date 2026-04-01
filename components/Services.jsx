@@ -30,7 +30,7 @@ const services = [
       </svg>
     ),
     title: "APIs & Backend",
-    description: "Arquitectura robusta de servidores con Node.js, Express, Python, FastAPI, C# .NET y bases de datos SQL/NoSQL.",
+    description: "Arquitectura robusta de servidores con Node.js, FastAPI, .NET y bases de datos SQL/NoSQL.",
     gradient: "from-orange-500/10 to-amber-500/10",
   },
   {
